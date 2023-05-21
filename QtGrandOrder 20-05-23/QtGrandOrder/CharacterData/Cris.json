@@ -1,0 +1,50 @@
+{
+  "Name": "Cris",
+  "MaxHP": 120,
+  "MaxMP": 80,
+  "BaseMPRegen": 16,
+  "Defence": 10,
+  "EnergyCost": 100,
+  "BaseAttackDamage": 30,
+  "Skills": {
+    "Skill 1": {
+      "SkillName": "За столом",
+      "SkillDescription": "Делает выбранного союзника неуязвимым на один ход, но блокирует его действия",
+      "SkillIcon": "",
+      "MPCost": 16,
+      "SkillTarget": "ALLY",
+      "SkillEffect 1": {
+        "EffectName": "INVUL+BLOCK",
+        "Magnitude": 1,
+        "Turns": 1
+      },
+      "Cooldown": 3
+    },
+    "Skill 2": {
+      "SkillName": "Капец",
+      "SkillDescription": "Понижение атаки ранг II (10%) на выбранного врага на 3 хода",
+      "SkillIcon": "",
+      "MPCost": 16,
+      "SkillTarget": "ENEMY",
+      "SkillEffect 1": {
+        "EffectName": "DMG_DOWN",
+        "Magnitude": 10,
+        "Turns": 3
+      },
+      "Cooldown": 5
+    },
+    "Skill 3": {
+      "SkillName": "With the boys",
+      "SkillDescription": "Регенерация хп ранг II (3%) на всех союзников на 3 хода",
+      "SkillIcon": "",
+      "MPCost": 64,
+      "SkillTarget": "ALLALLY",
+      "SkillEffect 1": {
+        "EffectName": "HP_REGEN",
+        "Magnitude": 3,
+        "Turns": 3
+      },
+      "Cooldown": 9
+    }
+  }
+}

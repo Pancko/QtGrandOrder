@@ -1,0 +1,50 @@
+{
+  "Name": "Neco Arc",
+  "MaxHP": 150,
+  "MaxMP": 50,
+  "BaseMPRegen": 10,
+  "Defence": 5,
+  "EnergyCost": 100,
+  "BaseAttackDamage": 40,
+  "Skills": {
+    "Skill 1": {
+      "SkillName": "Legalize Nuclear Bombs",
+      "SkillDescription": "Реген мп ранг II (5%) на себя на 3 хода",
+      "SkillIcon": "",
+      "MPCost": 10,
+      "SkillTarget": "SELF",
+      "SkillEffect 1": {
+        "EffectName": "MP_REGEN",
+        "Magnitude": 5,
+        "Turns": 3
+      },
+      "Cooldown": 5
+    },
+    "Skill 2": {
+      "SkillName": "Pipe Bomb",
+      "SkillDescription": "Стан выбранного врага на 1 ход",
+      "SkillIcon": "",
+      "MPCost": 30,
+      "SkillTarget": "ENEMY",
+      "SkillEffect 1": {
+        "EffectName": "STUN",
+        "Magnitude": 1,
+        "Turns": 1
+      },
+      "Cooldown": 5
+    },
+    "Skill 3": {
+      "SkillName": "I am inside your walls",
+      "SkillDescription": "Похищает 10% рандомной характеристики у выбранного врага на 3 хода",
+      "SkillIcon": "",
+      "MPCost": 30,
+      "SkillTarget": "ENEMY",
+      "SkillEffect 1": {
+        "EffectName": "RANDOMSTATVAMP",
+        "Magnitude": 10,
+        "Turns": 3
+      },
+      "Cooldown": 7
+    }
+  }
+}

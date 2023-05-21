@@ -1,0 +1,43 @@
+{
+  "Name": "Neko Arc",
+  "Speed": 20,
+  "MaxHP": 150,
+  "MaxMP": 50,
+  "EnergyCost": 100,
+  "BaseAttackDamage": 10,
+  "Skills": {
+    "Skill 1": {
+      "SkillName": "Legalize Nuclear Bombs",
+      "SkillDescription": "15% бонус от базовой атаки на 3 хода",
+      "SkillIcon": "",
+      "SkillTarget": "SELF",
+      "SkillEffect": {
+        "EffectName": "DMG_UP",
+        "Turns": "3"
+      },
+      "Cooldown": "5"
+    },
+    "Skill 2": {
+      "SkillName": "Pipe Bomb",
+      "SkillDescription": "10% Понижение атаки выбранного врага на 3 хода",
+      "SkillIcon": "",
+      "SkillTarget": "ENEMY",
+      "SkillEffect": {
+        "EffectName": "DMG_DOWN",
+        "Turns": "3"
+      },
+      "Cooldown": "5"
+    },
+    "Skill 3": {
+      "SkillName": "I am inside your walls",
+      "SkillDescription": "Понижение скорости врага на 5 единиц на 1 ход",
+      "SkillIcon": "",
+      "SkillTarget": "ENEMY",
+      "SkillEffect": {
+        "EffectName": "SPEED_DOWN",
+        "Turns": "1"
+      },
+      "Cooldown": "5"
+    }
+  }
+}

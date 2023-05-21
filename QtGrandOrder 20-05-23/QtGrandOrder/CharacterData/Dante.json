@@ -1,0 +1,50 @@
+{
+  "Name": "Dante",
+  "MaxHP": 170,
+  "MaxMP": 30,
+  "BaseMPRegen": 6,
+  "Defence": 0,
+  "EnergyCost": 120,
+  "BaseAttackDamage": 50,
+  "Skills": {
+    "Skill 1": {
+      "SkillName": "Трюкач",
+      "SkillDescription": "Повышение атаки ранг III (15%) на себя на 3 хода",
+      "SkillIcon": "",
+      "MPCost": 12,
+      "SkillTarget": "SELF",
+      "SkillEffect 1": {
+        "EffectName": "DMG_UP",
+        "Magnitude": 15,
+        "Turns": 3
+      },
+      "Cooldown": 6
+    },
+    "Skill 2": {
+      "SkillName": "Featurng Dante",
+      "SkillDescription": "Повышение атаки ранг I (5%) на всех союзников на 3 хода",
+      "SkillIcon": "",
+      "MPCost": 12,
+      "SkillTarget": "ALLALLY",
+      "SkillEffect 1": {
+        "EffectName": "DMG_UP",
+        "Magnitude": 5,
+        "Turns": 3
+      },
+      "Cooldown": 6
+    },
+    "Skill 3": {
+      "SkillName": "Провокация",
+      "SkillDescription": "Понижение защиты ранг IV (20%) врага на 1 ход",
+      "SkillIcon": "",
+      "MPCost": 18,
+      "SkillTarget": "ENEMY",
+      "SkillEffect 1": {
+        "EffectName": "DEF_DOWN",
+        "Magnitude": 20,
+        "Turns": 1
+      },
+      "Cooldown": 5
+    }
+  }
+}

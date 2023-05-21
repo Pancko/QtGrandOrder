@@ -1,0 +1,14 @@
+release/character.o
+release/clickablelabel.o
+release/effect.o
+release/hoveringpushbutton.o
+release/main.o
+release/player.o
+release/qtgrandorder.o
+release/skill.o
+release/qrc_CharacterData.o
+release/moc_character.o
+release/moc_clickablelabel.o
+release/moc_hoveringpushbutton.o
+release/moc_player.o
+release/moc_qtgrandorder.o

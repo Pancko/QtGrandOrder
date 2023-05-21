@@ -1,0 +1,50 @@
+{
+  "Name": "Okabe",
+  "MaxHP": 110,
+  "MaxMP": 90,
+  "BaseMPRegen": 18,
+  "Defence": 10,
+  "EnergyCost": 150,
+  "BaseAttackDamage": 30,
+  "Skills": {
+    "Skill 1": {
+      "SkillName": "Димейл",
+      "SkillDescription": "Откат половины эффектов на 1 ход",
+      "SkillIcon": "",
+      "MPCost": 54,
+      "SkillTarget": "SELF",
+      "SkillEffect 1": {
+        "EffectName": "DEMAIL",
+        "Magnitude": 1,
+        "Turns": 1
+      },
+      "Cooldown": 5
+    },
+    "Skill 2": {
+      "SkillName": "Trace back",
+      "SkillDescription": "+1 ход к баффам, -1 к дебаффам на себя",
+      "SkillIcon": "",
+      "MPCost": 54,
+      "SkillTarget": "SELF",
+      "SkillEffect 1": {
+        "EffectName": "TRACEBACK",
+        "Magnitude": 1,
+        "Turns": 1
+      },
+      "Cooldown": 6
+    },
+    "Skill 3": {
+      "SkillName": "Телепортация банана",
+      "SkillDescription": "Рандомный дебафф ранга III рандомного противника на 3 хода",
+      "SkillIcon": "",
+      "MPCost": 18,
+      "SkillTarget": "RANDOMENEMY",
+      "SkillEffect 1": {
+        "EffectName": "RANDOMDEBUFF",
+        "Magnitude": 10,
+        "Turns": 3
+      },
+      "Cooldown": 5
+    }
+  }
+}

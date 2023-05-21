@@ -1,0 +1,44 @@
+{
+  "Name": "Cris",
+  "Speed": 10,
+  "MaxHP": 120,
+  "MaxMP": 80,
+  "Defence": 10,
+  "EnergyCost": 100,
+  "BaseAttackDamage": 8,
+  "Skills": {
+    "Skill 1": {
+      "SkillName": "За столом",
+      "SkillDescription": "Неуязвимость + блок персонажа",
+      "SkillIcon": "",
+      "SkillTarget": "ALLY",
+      "SkillEffect": {
+        "EffectName": "DMG_UP",
+        "Turns": "3"
+      },
+      "Cooldown": "5"
+    },
+    "Skill 2": {
+      "SkillName": "Капец",
+      "SkillDescription": "Дебаф",
+      "SkillIcon": "",
+      "SkillTarget": "SELF",
+      "SkillEffect": {
+        "EffectName": "DEF_UP",
+        "Turns": "3"
+      },
+      "Cooldown": "5"
+    },
+    "Skill 3": {
+      "SkillName": "With the boys",
+      "SkillDescription": "Понижает скорость всех врагов на 5 на 3 хода",
+      "SkillIcon": "",
+      "SkillTarget": "ALLENEMY",
+      "SkillEffect": {
+        "EffectName": "SPEED_DOWN",
+        "Turns": "3"
+      },
+      "Cooldown": "5"
+    }
+  }
+}

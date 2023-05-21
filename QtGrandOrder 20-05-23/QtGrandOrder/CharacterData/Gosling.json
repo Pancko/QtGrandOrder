@@ -1,0 +1,55 @@
+{
+  "Name": "Ryan Gosling",
+  "MaxHP": 140,
+  "MaxMP": 60,
+  "BaseMPRegen": 12,
+  "Defence": 5,
+  "EnergyCost": 120,
+  "BaseAttackDamage": 40,
+  "Skills": {
+    "Skill 1": {
+      "SkillName": "Зубочистку?",
+      "SkillDescription": "Повышение атаки ранг II (10%) на себя на 3 хода.",
+      "SkillIcon": "",
+      "MPCost": 12,
+      "SkillTarget": "SELF",
+      "SkillEffect 1": {
+        "EffectName": "DMG_UP",
+        "Magnitude": 10,
+        "Turns": 3
+      },
+      "Cooldown": 5
+    },
+    "Skill 2": {
+      "SkillName": "Мне интересно",
+      "SkillDescription": "Повышение защиты ранг III (15%), Регенерация хп ранг II (3%) на себя на 3 хода.",
+      "SkillIcon": "",
+      "MPCost": 48,
+      "SkillTarget": "SELF",
+      "SkillEffect 1": {
+        "EffectName": "DEF_UP",
+        "Magnitude": 15,
+        "Turns": 3
+      },
+      "SkillEffect 2": {
+        "EffectName": "HP_REGEN",
+        "Magnitude": 3,
+        "Turns": 3
+      },
+      "Cooldown": 8
+    },
+    "Skill 3": {
+      "SkillName": "Снегодождь, опять снегодождь",
+      "SkillDescription": "Понижение защиты ранг I (5%) на всех врагов на 3 хода",
+      "SkillIcon": "",
+      "MPCost": 24,
+      "SkillTarget": "ALLENEMY",
+      "SkillEffect 1": {
+        "EffectName": "DEF_DOWN",
+        "Magnitude": 5,
+        "Turns": 3
+      },
+      "Cooldown": 6
+    }
+  }
+}

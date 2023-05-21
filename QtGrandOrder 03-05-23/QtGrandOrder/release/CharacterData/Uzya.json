@@ -1,0 +1,44 @@
+{
+  "Name": "Uzya",
+  "Speed": 10,
+  "MaxHP": 150,
+  "MaxMP": 50,
+  "Defence": 10,
+  "EnergyCost": 200,
+  "BaseAttackDamage": 13,
+  "Skills": {
+    "Skill 1": {
+      "SkillName": "Change da world",
+      "SkillDescription": "Снимает хп выбранному врагу и качает союзнику",
+      "SkillIcon": "",
+      "SkillTarget": "ALLY",
+      "SkillEffect": {
+        "EffectName": "DMG_UP",
+        "Turns": "3"
+      },
+      "Cooldown": "5"
+    },
+    "Skill 2": {
+      "SkillName": "Перфоманс",
+      "SkillDescription": "Станит себя на ход, увеличивает дмг союзникам или себе",
+      "SkillIcon": "",
+      "SkillTarget": "SELF",
+      "SkillEffect": {
+        "EffectName": "DEF_UP",
+        "Turns": "3"
+      },
+      "Cooldown": "5"
+    },
+    "Skill 3": {
+      "SkillName": "Разгон",
+      "SkillDescription": "Скорость союзникам с небольшим шансом меняет поле боя",
+      "SkillIcon": "",
+      "SkillTarget": "ALLENEMY",
+      "SkillEffect": {
+        "EffectName": "SPEED_DOWN",
+        "Turns": "3"
+      },
+      "Cooldown": "5"
+    }
+  }
+}

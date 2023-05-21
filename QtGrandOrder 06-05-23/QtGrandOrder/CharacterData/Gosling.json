@@ -1,0 +1,44 @@
+{
+  "Name": "Ryan Gosling",
+  "Speed": 10,
+  "MaxHP": 140,
+  "MaxMP": 60,
+  "Defence": 10,
+  "EnergyCost": 120,
+  "BaseAttackDamage": 15,
+  "Skills": {
+    "Skill 1": {
+      "SkillName": "Зубочистку?",
+      "SkillDescription": "10% бонус от базовой атаки на 3 хода. 5 скорости на 3 хода",
+      "SkillIcon": "",
+      "SkillTarget": "SELF",
+      "SkillEffect": {
+        "EffectName": "DMG_UP",
+        "Turns": "3"
+      },
+      "Cooldown": "5"
+    },
+    "Skill 2": {
+      "SkillName": "Мне интересно",
+      "SkillDescription": "Повышает собственную защиту на 10 на 3 хода",
+      "SkillIcon": "",
+      "SkillTarget": "SELF",
+      "SkillEffect": {
+        "EffectName": "DEF_UP",
+        "Turns": "3"
+      },
+      "Cooldown": "5"
+    },
+    "Skill 3": {
+      "SkillName": "Снегодождь, опять снегодождь",
+      "SkillDescription": "Понижает скорость всех врагов на 5 на 3 хода",
+      "SkillIcon": "",
+      "SkillTarget": "ALLENEMY",
+      "SkillEffect": {
+        "EffectName": "SPEED_DOWN",
+        "Turns": "3"
+      },
+      "Cooldown": "5"
+    }
+  }
+}

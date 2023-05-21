@@ -1,0 +1,50 @@
+{
+  "Name": "Uzya",
+  "MaxHP": 150,
+  "MaxMP": 50,
+  "BaseMPRegen": 10,
+  "Defence": 5,
+  "EnergyCost": 200,
+  "BaseAttackDamage": 40,
+  "Skills": {
+    "Skill 1": {
+      "SkillName": "Change da world",
+      "SkillDescription": "Вампиризм ранг II (3%). Забирает здоровье выбранного в данный момент врага и перекачивает союзнику",
+      "SkillIcon": "",
+      "MPCost": 10,
+      "SkillTarget": "ALLY",
+      "SkillEffect 1": {
+        "EffectName": "HP_VAMP",
+        "Magnitude": 3,
+        "Turns": 1
+      },
+      "Cooldown": 4
+    },
+    "Skill 2": {
+      "SkillName": "Перфоманс",
+      "SkillDescription": "Станит себя на ход, увеличивает урон ранг III (15%) союзникам или себе на 3 хода",
+      "SkillIcon": "",
+      "MPCost": 10,
+      "SkillTarget": "ALLY",
+      "SkillEffect 1": {
+        "EffectName": "DMG_UP",
+        "Magnitude": 15,
+        "Turns": 3
+      },
+      "Cooldown": 6
+    },
+    "Skill 3": {
+      "SkillName": "Разгон",
+      "SkillDescription": "Реген маны ранг II (5%) всем союзникам на 3 хода, с небольшим шансом меняет поле боя",
+      "SkillIcon": "",
+      "MPCost": 20,
+      "SkillTarget": "ALLALLY",
+      "SkillEffect 1": {
+        "EffectName": "MP_REGEN+",
+        "Magnitude": 10,
+        "Turns": 3
+      },
+      "Cooldown": 9
+    }
+  }
+}

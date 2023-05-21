@@ -1,0 +1,13 @@
+{
+  "name" : "Dante",
+  "Speed" : 11,
+  "MaxHP" : 110,
+  "MaxMP" : 30,
+  "EnergyCost" : 120,
+  "BaseAttackDamage" : 15,
+  "Skills" : {
+    "Skill 1" : "Trickster",
+    "Skill 2" : "Featurng Dante",
+    "Skill 3" : "Insult"
+  }
+}

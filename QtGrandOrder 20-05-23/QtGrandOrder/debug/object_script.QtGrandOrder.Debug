@@ -1,0 +1,14 @@
+debug/character.o
+debug/clickablelabel.o
+debug/effect.o
+debug/hoveringpushbutton.o
+debug/main.o
+debug/player.o
+debug/qtgrandorder.o
+debug/skill.o
+debug/qrc_CharacterData.o
+debug/moc_character.o
+debug/moc_clickablelabel.o
+debug/moc_hoveringpushbutton.o
+debug/moc_player.o
+debug/moc_qtgrandorder.o

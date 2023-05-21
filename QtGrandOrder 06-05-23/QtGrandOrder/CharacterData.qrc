@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/CharacterData">
+        <file>CharacterData/Dante.json</file>
+        <file>CharacterData/Dante_Image.png</file>
+        <file>CharacterData/Neco Arc_Image.png</file>
+        <file>CharacterData/NecoArc.json</file>
+        <file>CharacterData/Cris.json</file>
+        <file>CharacterData/Cris_Image.png</file>
+        <file>CharacterData/Okabe.json</file>
+        <file>CharacterData/Okabe_Image.png</file>
+        <file>CharacterData/Ryan Gosling_Image.png</file>
+        <file>CharacterData/Uzya.json</file>
+        <file>CharacterData/Uzya_Image.png</file>
+        <file>CharacterData/Gosling.json</file>
+        <file>CharacterData/Cris_TargetImage.png</file>
+        <file>CharacterData/Dante_TargetImage.png</file>
+        <file>CharacterData/Neco Arc_TargetImage.png</file>
+        <file>CharacterData/Okabe_TargetImage.png</file>
+        <file>CharacterData/Ryan Gosling_TargetImage.png</file>
+        <file>CharacterData/Target.png</file>
+        <file>CharacterData/Uzya_TargetImage.png</file>
+    </qresource>
+</RCC>
